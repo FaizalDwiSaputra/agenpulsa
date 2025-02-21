@@ -11,9 +11,11 @@ Proyek ini adalah website agen pulsa yang memungkinkan pengguna untuk membeli pu
 3. ![Mobile 3](hasil/2.png)
 
 ## 📌 Fitur
-- ✅ Fitur login
-- ✅ Fitur registrasi
-- ✅ Fitur checkout
+- ✅ Login
+- ✅ Registrasi
+- ✅ Checkout
+- ✅ Detail
+- ✅ Admin CRUD
 
 ## 🛠️ Teknologi yang Digunakan
 - **Frontend**: HTML, CSS, JavaScript  
@@ -26,3 +28,6 @@ Proyek ini adalah website agen pulsa yang memungkinkan pengguna untuk membeli pu
    git clone https://github.com/FaizalDwiSaputra/agenpulsa.git
 2. **Import database pulsa**
 3. **Jalankan pada localhost**
+
+✨ Kontributor
+- Faizal Dwi Saputra

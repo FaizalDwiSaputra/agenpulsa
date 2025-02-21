@@ -1,0 +1,125 @@
+*{
+    font-family: "Poppins";
+}
+.login-daftar a{
+    text-decoration: none;
+    color: blue;
+}
+.logout {
+    text-decoration: none;
+    color: blue;
+}
+.full-kontainer{
+    width: 70%;
+    margin: 0 auto;
+}
+.orang{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+.kartu{
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.1);
+}
+.beli{
+    background-color: blue;
+    border-radius: 20px ;
+    padding: 7px 0 7px 0;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.1);
+    transition: 0.1s linear;
+    cursor: pointer;
+
+}
+.beli a{
+    text-decoration: none;
+    color: white;
+
+}
+.beli:hover{
+    background-color: rgb(66, 111, 234);
+}
+.deskripsi{
+    height: 40px;
+}
+.deskripsi p{
+    color: blue;
+}
+.cari input{
+   border-radius: 20px;
+   padding: 3px 10px;
+}
+.cari i {
+    font-size: 20px;
+    color: blue;
+}
+.full-kontainer-3{
+    background: linear-gradient(to right, rgb(0, 0, 121), rgb(0, 0, 211));
+}
+.full-kontainer-3 h3{
+    color: orange;
+}
+.full-kontainer-3 p{
+    color: #fff;
+}
+.kartu-proses i{
+    font-size: 32px;
+    background-color: red;
+    border-radius: 50%;
+}
+.kartu-proses .agen{
+    background-color: rgb(130, 199, 130);
+}
+.kartu-proses .cepat{
+    background-color: rgb(127, 30, 212);
+}
+.kartu-proses .verif{
+    background-color: rgb(222, 69, 69);
+}
+.icon-proses{
+    height: 50px;
+}
+.footer{
+background: linear-gradient(to right, rgb(0, 0, 121), rgb(0, 0, 211));
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+
+    .kartu-footer h3{
+        font-size: 22px;
+        font-weight: 700;
+
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.icon-footer i{
+    font-size: 22px;
+    color: #fff;
+}
+
+@media screen and (min-width:320px) and (max-width: 599px)  {
+    .full-kontainer{
+        width: 98%;
+    }
+    .deskripsi h4{
+        font-size: 16px;
+    }
+    .beli a{
+        font-size: 12px;
+    }
+    .beli{
+        padding: 4px 0 4px 0;
+    }
+    .servis{
+        margin-bottom: 50px;
+    }
+    .kartu-proses i{
+        font-size: 26px;
+    }
+    .kartu-proses h3{
+        font-size: 22px;
+    }
+    .kartu-proses p{
+        font-size: 14px;
+    }
+}
